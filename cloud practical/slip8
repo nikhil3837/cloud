@@ -1,0 +1,17 @@
+Q. Execute the step to Demonstrate and implementation of cloud on single sign on. 
+ 
+You can implement Single Sign On in your custom applications that use Auth0 by just flipping a switch in each app.
+    1. In the management dashboard, click Apps / APIs.
+    2. Click the application that you want to enable Single Sign On.
+    3. In the Settings tab, scroll down until you see the Use Auth0 instead of the IdP to do Single Sign On switch.
+    4. Flip the switch! and save the changes.
+Steps are as Follows:
+The login flow usually looks like this:
+    1. A user browses to the application or website they want access to, aka, the Service Provider.
+    2. The Service Provider sends a token that contains some information about the user, like their email address, to the SSO system, aka, the Identity Provider, as part of a request to authenticate the user.
+    3. The Identity Provider first checks to see whether the user has already been authenticated, in which case it will grant the user access to the Service Provider application and skip to step 5.
+    4. If the user hasn’t logged in, they will be prompted to do so by providing the credentials required by the Identity Provider. This could simply be a username and password or it might include some other form of authentication like a One-Time Password (OTP).
+    5. Once the Identity Provider validates the credentials provided, it will send a token back to the Service Provider confirming a successful authentication.
+    6. This token is passed through the user’s browser to the Service Provider.
+    7. The token that is received by the Service Provider is validated according to the trust relationship that was set up between the Service Provider and the Identity Provider during the initial configuration.
+    8. The user is granted access to the Service Provider.

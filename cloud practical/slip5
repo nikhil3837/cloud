@@ -1,0 +1,25 @@
+Slip no .-5
+Q. Working of Google drive to make spreadsheet and notes. 
+
+
+
+
+Create a Spreadsheet and Fill It With Data
+The best part about Google Sheets is that it's free and it works on any device—which makes it easy to follow along with the tutorials in this book. All you'll need is a web browser (or the Google Sheets app on your iOS or Android device), and a free Google account. On your Mac or PC, head over to sheets.google.com, and you're ready to get started.
+There are 3 ways to create a new spreadsheet in Google Sheets:
+    1. Click the red "NEW" button on your your Google Drive dashboard and select "Google Sheets"
+    2. Open the menu from within a spreadsheet and select "File > New Spreadsheet"
+    3. Click "Blank" or select a template on the Google Sheets homepage
+This will create a new blank spreadsheet (or a pre-populated template if you choose one of those). For this tutorial, though, you should start with a blank spreadsheet.
+Look around the white-and-grey grid that occupies most of your screen, and the first thing you’ll notice is a blue outline around the selected cell or cells.
+As soon as you open a new spreadsheet, if you just start typing you’ll see that your data starts populating the selected cell immediately—usually the top left cell. There's no need to double click cells when you add information, and not much need to use your mouse.
+Feel free to select any cell you’d like, then go ahead and type something in. When you’re done entering data into a cell, you can do one of 4 things:
+    1. Press ENTER to save the data and move to the beginning of the next row
+    2. Press TAB to save the data and move to the right in the same row
+    3. Use the ARROW KEYS on your keyboard (up, down, left, and right) to move 1 cell in that direction
+    4. Click any cell to jump directly to that cell
+If you don’t want to type in everything manually, you can also add data to your Sheet en masse via a few different methods:
+    1. Copy and paste a list of text or numbers into your spreadsheet
+    2. Copy and paste an HTML table from a website
+    3. Import an existing spreadsheet in csv, xls, xlsx and other formats
+    4. Copy any value in a cell across a range of cells via a click and drag
